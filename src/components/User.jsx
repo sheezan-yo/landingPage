@@ -34,12 +34,13 @@ function User() {
           <p className="text-[14px] leading-[19px]">Marry@Gmail.Com</p>
         </div>
       </div>
-      <div className="ps-[20px] pe-[16px]">
-        <p className="text-[14px] leading-[22px] text-[#1D2226]">
+      <div>
+        <p className="ps-[20px] pe-[16px] text-[14px] leading-[22px] text-[#1D2226] pb-[20px]">
           Lorem Ipsum Dolor Sit Amet, Consetetur Sadipscing Elitr, Sed Diam
           Nonumy Eirmod Tempor Invidunt Ut Labore Et Dolore Magna Aliquyam Erat,
           Sed Diam
         </p>
+        <div className="border-b border-dashed w-full border-[#CBCBCB]"></div>
       </div>
     </div>
   );

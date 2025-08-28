@@ -7,7 +7,7 @@ function Signin() {
   const navigate = useNavigate();
   const signinValidation = Yup.object().shape({
     email: Yup.string()
-      .required("Email is requierd")
+      .required("Email is required")
       .email("Enter valid email"),
     password: Yup.string().required("Password is required"),
   });
@@ -46,7 +46,7 @@ function Signin() {
               <label
                 htmlFor="email"
                 className="absolute text-sm text-[#6C25FF]
-               -translate-y-1/2 top-0 left-2 bg-white px-1"
+               -translate-y-1/2 top-0 left-2 bg-[#F7F8F9] px-1"
               >
                 Email Address
               </label>
@@ -67,7 +67,7 @@ function Signin() {
               <label
                 htmlFor="password"
                 className="absolute text-sm text-[#6C25FF]
-               -translate-y-1/2 top-0 left-2 bg-white px-1"
+               -translate-y-1/2 top-0 left-2 bg-[#F7F8F9] px-1"
               >
                 Password
               </label>
