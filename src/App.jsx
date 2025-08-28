@@ -1,4 +1,4 @@
-import { Container, Home, Signin, Signup, User } from "./components/index";
+import { TempContainer, Home, Signin, Signup, User } from "./components/index";
 import "./App.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
@@ -7,33 +7,33 @@ function App() {
     {
       path: "",
       element: (
-        <Container>
+        <TempContainer>
           <Home />
-        </Container>
+        </TempContainer>
       ),
     },
     {
       path: "/signin",
       element: (
-        <Container>
+        <TempContainer>
           <Signin />
-        </Container>
+        </TempContainer>
       ),
     },
     {
       path: "/signup",
       element: (
-        <Container>
+        <TempContainer>
           <Signup />
-        </Container>
+        </TempContainer>
       ),
     },
     {
       path: "/user",
       element: (
-        <Container>
+        <TempContainer>
           <User />
-        </Container>
+        </TempContainer>
       ),
     },
   ]);
