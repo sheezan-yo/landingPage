@@ -17,3 +17,5 @@ If you are developing a production application, we recommend using TypeScript wi
 - Tailwind CSS
 - Formik: to handle forms
 - Yup: as validation
+
+- [Live Demo](https://landingpageassign.netlify.app)
