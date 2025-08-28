@@ -4,8 +4,8 @@ import Signin from "./Signin";
 import Signup from "./Signup";
 import User from "./User";
 
-function Container({ children }) {
+function TempContainer({ children }) {
   return <div className="w-[375px] h-screen">{children}</div>;
 }
 
-export default Container;
+export default TempContainer;
